@@ -12,7 +12,7 @@ var (
 )
 
 func main() {
-	flag.Parse()
+	flag.Parse()   // parse/sent data value from command line to be use in flag
 
 	fmt.Print("Starting API")
 }
